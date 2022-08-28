@@ -1,9 +1,13 @@
 fn main() {
     let x = 5;
 
-    let x = x + 1;
+    let x = x + 2;
 
-    let spaces = "        ";
+    let mut y = 8;
+
+    y = 9;
+
+    let spaces = " ";
 
     let spaces = spaces.len();
 
@@ -13,5 +17,6 @@ fn main() {
     }
 
     println!("The value of x is: {x}");
+    println!("The value of y is {y}");
     println!("The amount of spaces is: {spaces}");
 }
